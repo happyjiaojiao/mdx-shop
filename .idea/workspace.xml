@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4b77d7e-26a3-40c8-9f84-de8a7ebdc0fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-common/src/main/java/com/mdx/common/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-common/src/main/java/com/mdx/common/exception/BizException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-common/src/main/java/com/mdx/common/manager/RedisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-common/src/main/java/com/mdx/common/utils/JWTProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-common/src/main/java/com/mdx/common/utils/LocalDateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-common/src/main/java/com/mdx/common/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-common/src/main/java/com/mdx/common/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-common/src/main/java/com/mdx/common/utils/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/java/com/mdx/gateway/MdxShopGateWayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/java/com/mdx/gateway/constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/java/com/mdx/gateway/controller/HelloWordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/java/com/mdx/gateway/filter/MdxAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/java/com/mdx/gateway/route/GatewayConfigServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/java/com/mdx/gateway/route/GatewayRouteConfigProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/java/com/mdx/gateway/route/GatewayRouteInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/java/com/mdx/gateway/service/RouteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/java/com/mdx/gateway/service/impl/RouteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-gateway/src/test/java/com/mdx/gateway/RouteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-order/src/main/java/com/mdx/order/MdxShopOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-order/src/main/java/com/mdx/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-order/src/main/java/com/mdx/order/entity/OrderTbl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-order/src/main/java/com/mdx/order/feign/StorageFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-order/src/main/java/com/mdx/order/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-order/src/main/java/com/mdx/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-order/src/main/java/com/mdx/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-order/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-storage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-storage/src/main/java/com/mdx/storage/MdxShopStorageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-storage/src/main/java/com/mdx/storage/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-storage/src/main/java/com/mdx/storage/entity/StorageTbl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-storage/src/main/java/com/mdx/storage/repository/StorageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-storage/src/main/java/com/mdx/storage/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-storage/src/main/java/com/mdx/storage/service/impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-storage/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-storage/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/MdxShopUserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/config/SaTokenConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/controller/HelloWordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/controller/SoTokenUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/dto/MdxUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/entity/MdxUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/feign/OrderFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/feign/ProductFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/handler/OrderFeignHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/handler/UserSentinelResourceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/repository/MdxUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/service/impl/StpInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/java/com/mdx/user/vo/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/test/java/com/mdx/user/CodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdx-shop-user/src/test/java/com/mdx/user/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.9.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TQGurDD7STca26aCPpHJKxlqs4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "GitLink.CustomHostSettings",
+    "spring.configuration.checksum": "4cb60009c8205f70fb5d842fd17131a5",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="debugInitializationType" value="AGENT" />
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79951\IdeaProjects\mdx-shop\mdx-shop-storage\src\main\java\com\mdx\storage\service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mdx.order.service" />
+      <recent name="com.mdx.order" />
+      <recent name="com.mdx.storage.order" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mdx.storage" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.UserServiceImpl">
+    <configuration name="JWTProvider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mdx.common.utils.JWTProvider" />
+      <module name="mdx-shop-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mdx.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mdx.user.service.impl.UserServiceImpl" />
+      <module name="mdx-shop-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mdx.user.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="#11" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="MdxShopGateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mdx-shop-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mdx.gateway.MdxShopGateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MdxShopOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mdx-shop-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mdx.order.MdxShopOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MdxShopStorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mdx-shop-storage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mdx.storage.MdxShopStorageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MdxShopUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mdx-shop-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mdx.user.MdxShopUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JWTProvider" />
+      <item itemvalue="Application.UserServiceImpl" />
+      <item itemvalue="HTTP Request.generated-requests | #11" />
+      <item itemvalue="HTTP Request.generated-requests | #9" />
+      <item itemvalue="Spring Boot.MdxShopUserApplication" />
+      <item itemvalue="Spring Boot.MdxShopGateWayApplication" />
+      <item itemvalue="Spring Boot.MdxShopStorageApplication" />
+      <item itemvalue="Spring Boot.MdxShopOrderApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserServiceImpl" />
+        <item itemvalue="Application.JWTProvider" />
+        <item itemvalue="HTTP Request.generated-requests | #11" />
+        <item itemvalue="HTTP Request.generated-requests | #9" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4b77d7e-26a3-40c8-9f84-de8a7ebdc0fb" name="Changes" comment="" />
+      <created>1690968118375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690968118375</updated>
+      <workItem from="1690968120004" duration="30176000" />
+      <workItem from="1691113428008" duration="14599000" />
+      <workItem from="1691201277996" duration="7877000" />
+      <workItem from="1691209348652" duration="23889000" />
+      <workItem from="1691629924157" duration="72019000" />
+      <workItem from="1693189648132" duration="720000" />
+      <workItem from="1693190379926" duration="1946000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.mdx.common.exception.BizException" package="com.mdx.common.exception" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.ConcurrentModificationException" package="java.util" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

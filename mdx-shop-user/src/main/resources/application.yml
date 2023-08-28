@@ -1,0 +1,82 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: mdx-shop-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: mdx
+        group: mdx
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/mdx_shop?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: nancy010511
+
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    jedis:
+      pool:
+        max-active: 100
+        max-idle: 3
+        max-wait: -1
+        min-idle: 0
+    timeout: 2000
+
+feign:
+  sentinel:
+    enabled: true
+
+# Sa-Token配置
+sa-token:
+  # token 名称 (同时也是cookie名称)
+  token-name: satoken
+  # token 有效期，单位s 默认30天, -1代表永不过期
+  timeout: 2592000
+  # token 临时有效期 (指定时间内无操作就视为token过期) 单位: 秒
+  activity-timeout: -1
+  # 是否允许同一账号并发登录 (为true时允许一起登录, 为false时新登录挤掉旧登录)
+  is-concurrent: true
+  # 在多人登录同一账号时，是否共用一个token (为true时所有登录共用一个token, 为false时每次登录新建一个token)
+  is-share: false
+  # token风格
+  token-style: uuid
+  # 是否输出操作日志
+  is-log: false
+
+# 这个是 jwt 的配置
+jwt:
+  tokenHeader: Authorization
+  secret: mdx-secrt000001
+  expiration: 604800 #秒
+  prefix: Bearer
+
+wechat:
+  public: # 公众号
+    appId: xxx
+    appSecret: xxx
+    callBackUrl: http://z5h68g.natappfree.cc/user/wechat/callBack
+    orderTemplateId: L3dx1ngwwwm_U8_INbzDD8828lTb7ieo_V748Pv4ThM
+
+
+seata:
+  tx-service-group: my_test_tx_group
+  enabled: true
+  registry:
+    type: nacos
+    nacos:
+      application: mdx-seata-server  #注册在nacos服务名
+      server-addr: localhost:8848
+      group : mdx
+      namespace: mdx #注册在nacos命名空间
